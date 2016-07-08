@@ -1,6 +1,7 @@
 'Author: Valentin DEVILLE
 
-file = Array("C:\Users\user\Desktop\ocs.txt", "C:\Program Files (x86)\putty\putty.exe")
+'Change CUSTOM_PATH with your own file path 
+file = Array("C:\CUSTOM_PATH_2", "C:\CUSTOM_PATH_1")
 
 Set fso = CreateObject("Scripting.FileSystemObject")
 
