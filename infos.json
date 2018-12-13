@@ -3,6 +3,8 @@
   "author" : ["Valentin DEVILLE"],
   "contributor" : [],
   "supportedAgent" : ["Windows"],
+  "version" : "1.0",
+  "licence" : "GPLv2",
   "description" : {
     "fr" : "Remonte si un fichier spécifique existe",
     "en" : "Retrieve if specific file exist"
