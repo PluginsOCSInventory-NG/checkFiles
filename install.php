@@ -3,7 +3,7 @@
 /**
  * This function is called on installation and is used to create database schema for the plugin
  */
-function extension_install_checkFiles()
+function extension_install_checkfiles()
 {
     $commonObject = new ExtensionCommon;
 
@@ -19,7 +19,7 @@ function extension_install_checkFiles()
 /**
  * This function is called on removal and is used to destroy database schema for the plugin
  */
-function extension_delete_checkFiles()
+function extension_delete_checkfiles()
 {
     $commonObject = new ExtensionCommon;
     $commonObject -> sqlQuery("DROP TABLE IF EXISTS `checkfiles`");
@@ -28,7 +28,7 @@ function extension_delete_checkFiles()
 /**
  * This function is called on plugin upgrade
  */
-function extension_upgrade_checkFiles()
+function extension_upgrade_checkfiles()
 {
 
 }
