@@ -1,9 +1,9 @@
 
- 
-package Apache::Ocsinventory::Plugins::CheckFiles::Map;
- 
+
+package Apache::Ocsinventory::Plugins::Checkfiles::Map;
+
 use strict;
- 
+
 use Apache::Ocsinventory::Map;
 
 $DATA_MAP{checkfiles} = {

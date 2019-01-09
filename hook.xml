@@ -5,9 +5,9 @@
         <value>fr_FR</value>
     </hook>
     <hook type="cdentry">
-        <identifier>cd_checkFiles</identifier>
+        <identifier>cd_checkfiles</identifier>
         <translation>40000</translation>
         <category>other</category>
-        <available>checkFiles</available>
+        <available>checkfiles</available>
     </hook>
 </hookstore>
