@@ -1,12 +1,12 @@
 {
   "displayName" : "Check files",
   "author" : ["Valentin DEVILLE"],
-  "contributor" : [],
+  "contributor" : ["Léa Droguet"],
   "supportedAgent" : ["Windows"],
   "version" : "2.0",
   "licence" : "GPLv2",
   "description" : {
-    "fr" : "Remonte si un fichier spécifique existe",
-    "en" : "Retrieve if specific file exist"
+    "fr" : "Remonte si un fichier spécifique existe, remonte son contenu",
+    "en" : "Retrieve if specific file exist, retrieve its content"
   }
 }

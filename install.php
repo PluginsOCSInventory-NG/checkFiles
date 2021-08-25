@@ -12,6 +12,8 @@ function extension_install_checkfiles()
                           `HARDWARE_ID` INT(11) NOT NULL,
                           `PATH` TEXT DEFAULT NULL,
                           `EXIST` VARCHAR(255) DEFAULT NULL,
+                          `CONTENT` VARCHAR(255) DEFAULT NULL,
+                          `LAST_CHECK` DATETIME DEFAULT NULL,
                           PRIMARY KEY  (`ID`,`HARDWARE_ID`)
                           ) ENGINE=INNODB;");
 }
