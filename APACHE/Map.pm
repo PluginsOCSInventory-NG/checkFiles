@@ -11,12 +11,14 @@ $DATA_MAP{checkfiles} = {
 		multi => 1,
 		auto => 1,
 		delOnReplace => 1,
-		sortBy => 'PATH',
+		sortBy => 'LAST_CHECK',
 		writeDiff => 0,
 		cache => 0,
 		fields => {
                 PATH => {},
-                EXIST => {}
+                EXIST => {},
+				CONTENT => {},
+				LAST_CHECK => {}
 	}
 };
 1;
