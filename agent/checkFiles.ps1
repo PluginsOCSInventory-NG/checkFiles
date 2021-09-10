@@ -4,8 +4,8 @@ $currentDate = Get-Date -Format("yyyy-MM-dd HH:mm:ss")
 # modify below variable to set paths
 $paths = @("\path\to\file", "\path\to\secondfile")
 
-$content = ""
 foreach ($path in $paths) {
+    $content = ""
     if((Test-Path $path -PathType Leaf)) {
         $exists = "Yes"
 		if ($getFileContent -eq $True) {
