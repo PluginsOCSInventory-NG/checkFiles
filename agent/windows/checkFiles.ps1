@@ -5,7 +5,7 @@ $currentDate = Get-Date -Format("yyyy-MM-dd HH:mm:ss")
 $paths = @("\path\to\file", "\path\to\secondfile")
 
 foreach ($path in $paths) {
-    $content = ""
+    $content = "Not retrieved"
     if((Test-Path $path -PathType Leaf)) {
         $exists = "Yes"
 		if ($getFileContent -eq $True) {
